@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="sr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Festival lampiona</title>
+	<link href="stil.css" rel="stylesheet" type="text/css">
+	<link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+</head>
+<body> 
+	
+	<!-- PRVA STRANA -->
+	
+	<nav>	
+		<a href="index.html" class="logo"> <img src="Slike/logo.png" alt="" height="60"></a>
+		<a href="#festival"> O festivalu</a>
+		<a href="#video"> Promo video </a>
+		<a href="#galerija"> Galerija</a>
+		<a href="#tim"> Volonteri</a>
+		<a href="#forma"> Prijava </a>
+	</nav>
+	 <!-- hamburger meni -->
+ <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a href="index.html"><li><img src="Slike/logo.png" height="50" alt="logo"> </li></a>
+      <a href="#festival"><li>O festivalu</li></a>
+      <a href="#galerija"><li> Galerija</li></a>
+      <a href="#tim"><li>Volonteri</li></a>
+		<a href="#forma"><li>Prijava</li></a> 
+    </ul>
+  </div>
+	<!-- kraj hamburger menija -->
+	
+	<section id="prvi">
+		<img src="Slike/datum.png" class="datum" alt="datum festivala">
+
+		<div class="dole">
+			<a href="#festival">
+  				<img src="Slike/strelica.png" id="arrow" class="animated bounce" alt="strelica dole">
+			</a>
+		</div>
+	</section>
+	
+	<!-- video prva strana -->
+
+    <div class="HoverVideo__wrapper">
+        <div class="HoverVideo__videoBox">
+            <video class="video" loop preload="yes" muted>
+                <source src="Video/pozadinski_video.mp4" type="video/mp4">
+            </video>
+        </div>
+	</div>
+
+	
+	
+	<!-- O FESTIVALU -->
+	
+	<section id="festival">
+		<h2> O festivalu </h2>
+		<div class="container"> 
+			<div class="kolona1" > 
+				<img src="Slike/ofestivalu.png" alt="o festivalu"> 
+			</div>
+			<div class="kolona2">
+				<p> Peti po redu, sada već tradicionalni događaj, „Osmehov festival lampiona“, biće organizovan <span>28.novembra2020. godine na Keju žrtava racije u Novom Sadu.</span></p>
+				<p> Festival lampiona je ustvari <span> humanitarni događaj </span> fondacije 'Osmeh na dar'. Sredstava prikupljena biće opredeljena za domove za decu bez roditeljskog staranja. Fondacija “Osmeh na dar“ je prva studentska humanitarna fondacija čiji su osnovni ciljevi pomoć socijalno i zdravstveno ugroženoj deci i deci sa posebnim potrebama u Srbiji, širenje svesti o socijalnim i zdravstvenim  uslovima, kao i unapređenje i promocija kulture i obrazovanja, u siromašnim i nerazvijenim oblastima širom Republike Srbije (sa posebnim osvrtom na Kosovo i Metohiju).</p>
+			</div>
+		</div>	
+	</section>
+	
+	<!-- VIDEO -->
+	
+	<section id="video"> 
+
+		<video loop muted id="hero-video">
+			<source src="Video/festival_lampiona.mp4" type="video/mp4">
+		</video>
+		<div class="hero-video--btns">
+			<button id="video-btn" onclick="playPause()"><i class="fas fa-pause"></i></button>
+		</div>
+	</section> 
+	
+	<!-- GALERIJA -->
+	<section id="galerija">
+		<h2> Galerija </h2>
+	<!-- slajder galerija -->
+		<div class="demo">
+ 			 <div class="carousel__container">
+    			<div class="carousel__slide">
+      				<div class="carousel__item carousel__item--cloned">
+        				<img src="Slike/11.jpeg" alt="">
+      				</div>
+      				<div class="carousel__item">
+       					 <img src="Slike/8.jpeg" alt="">
+      				</div>
+      				<div class="carousel__item">
+        				<img src="Slike/2.jpeg" alt="">
+      				</div>
+      				<div class="carousel__item">
+        				<img src="Slike/3.jpeg" alt="">
+      				</div>
+      				<div class="carousel__item">
+       					 <img src="Slike/13.jpeg" alt="">
+      				</div>
+					<div class="carousel__item">
+        				<img src="Slike/5.jpeg" alt="">
+      				</div>
+      				<div class="carousel__item carousel__item--cloned">
+        				<img src="Slike/8.jpeg" alt="">
+      				</div>
+    			</div>
+    			<button class="carousel__button carousel__button--prev">
+     				 <i class="fas fa-arrow-left" id="prevBtn"></i>
+    			</button>
+   				<button class="carousel__button carousel__button--next">
+      				<i class="fas fa-arrow-left" id="nextBtn"></i>
+    			</button>
+    			<ul class="carousel__dots">
+      			<li class="slide-active">
+        	<button>
+          1
+        </button>
+      </li>
+      <li class="">
+        <button>2</button>
+      </li>
+      <li class="">
+        <button>3</button>
+      </li>
+      <li class="">
+        <button>4</button>
+      </li>
+		<li class="">
+        <button>5</button>
+      </li>
+    </ul>
+  </div>
+</div>
+	</section>
+	
+	<!-- VOLONTERI -->
+	
+	<section id="tim">
+		<h2> Volonteri </h2>
+		<div class="container"> 
+			<div class="kolona1" > 
+				<img src="Slike/volonteripozadina.png" alt="volonteri"> 
+			</div>
+			<div class="kolona2">
+				<p> Zahvaljujući stotinak volontera, Novi Sad je prošle godine obasjao celu zemlju. <span> Pridruži nam se i ti!</span> </p>
+				<p>Ako si student ili srednjoškolac, ako želiš da budeš društveno angažovan i da razvijaš svoje timske i organizacione sposobnosti, da upoznaješ nove ljude i pomažeš onima kojima je pomoć neophodna, prijavi se da budeš volonter Fonda ’’Osmeh na dar’’.</p>
+				<p> Volonteri mogu učestvovati u različitim aktivnostima koje se tiču saradnje sa medijima ili sponzorima, i mogu biti deo kreativnog, finansijskog ili organizacionog tima Fonda ’’Osmeh na dar’’. </p>
+				<p><span> I naravno, postaješ deo tima koji organizuje ceo festival! </span></p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- FORMA -->
+	
+	<section id="forma">
+		<h2> Prijava za volontiranje </h2>
+		<form>	
+			<input type="text" name="first_name" placeholder="Ime *" required>		
+			<input type="text" name="last_name" placeholder="Prezime *" required>		
+			<input type="email" placeholder="E-mail *" required> 		
+			<input type="tel" id="tel" placeholder="Broj telefona *" required>			
+			<button onclick="window.location.href = 'index.html'" data-hover="Hvala ti!"> Prijavi se </button>
+		</form>
+</section>
+	
+	<footer> 
+		<p> FESTIVAL LAMPIONA &copy; Februar, 2020.</p>
+	</footer>
+	<script src="js/skripta.js"> </script>
+
+</body>
+</html>
